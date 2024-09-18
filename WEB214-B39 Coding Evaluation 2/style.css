@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
+=======
+>>>>>>> 21760c15b268541f3b120b90a85922d9ac91c6bc
 .logo img{
     height:35px;
 }
@@ -11,7 +14,11 @@
 }
 .opt{
     list-style: none;
+<<<<<<< HEAD
     margin:0;
+=======
+    margin:0
+>>>>>>> 21760c15b268541f3b120b90a85922d9ac91c6bc
     padding: 0%;
     display: flex;
     gap: 25px;
@@ -23,7 +30,11 @@
     border:none;
     border-radius:25px;
     cursor:pointer;
+<<<<<<< HEAD
     padding: 10px 40px;
+=======
+    padding: 0px 40px;
+>>>>>>> 21760c15b268541f3b120b90a85922d9ac91c6bc
 
 }
 .nav{
@@ -32,10 +43,15 @@
     background-color: transparent;
     gap:30px;
     position: relative;
+<<<<<<< HEAD
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     /* margin:20px; */
     align-items: center;
     
+=======
+    box-shadow: 0 8px 5px rgba(0,0,0,0.2);
+    /* margin:20px; */
+>>>>>>> 21760c15b268541f3b120b90a85922d9ac91c6bc
 }
 
 .nav li{
@@ -121,7 +137,11 @@ font-size: 40px;
 
 .image1{
     display:flex;
+<<<<<<< HEAD
     justify-content:center;
+=======
+    justify-content: space-between;
+>>>>>>> 21760c15b268541f3b120b90a85922d9ac91c6bc
     align-items: center;
     gap:20px;
 }
