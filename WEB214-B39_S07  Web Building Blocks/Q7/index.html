@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        text-align: center;
+        padding: 50px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <picture>
+      <source srcset="fruit-8773085_640.jpg" media="(max-width: 400px)" />
+
+      <source srcset="fruit-8773085_1280.jpg" media="(max-width: 800px)" />
+
+      <source srcset="fruit-8773085_1920.jpg" media="(min-width: 801px)" />
+
+      <img src="fruit-8773085_1280.jpg" alt="Fruits" />
+    </picture>
+  </body>
+</html>
