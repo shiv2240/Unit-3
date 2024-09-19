@@ -101,7 +101,7 @@ align-items: center;
 .scroll {
     margin: 0px 50px;
 }
-.scroll .boxes {
+.scroll .boxes1 {
     display: flex;
     justify-content: space-between;
 }
@@ -123,7 +123,7 @@ align-items: center;
     width: 100%;
     overflow: hidden;
 }
-.scroll .boxes img {
+.scroll .boxes1 img {
     padding-bottom: 15px;
 }
 .scroll .sugge .text1 {
