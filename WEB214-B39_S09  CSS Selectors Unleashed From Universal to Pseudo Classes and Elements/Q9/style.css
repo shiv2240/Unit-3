@@ -60,7 +60,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:50px;
+    margin:35px;
 }
 .text1{
     color: #fff;
@@ -68,28 +68,68 @@ body{
     font-weight: 700;
 }
 .text2{
-    background: linear-gradient(to right, rgb(65, 10, 249), rgb(131, 2, 209));
+    background-image: linear-gradient(to right, rgb(65, 10, 249), rgb(131, 2, 209));
+    -webkit-background-clip: text;
+    color: transparent;
     font-size: 67px;
     font-weight: 700;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 .text-para{
     color: rgb(128, 132, 131);
-    margin:35px;
+    margin-top:10px;
     font-size: 20px;
+    margin-bottom: 75px;
 }
 /* Center-down */
 .fill{
     color: #fff;
+    padding-left: 25px;
     background-color:rgb(10, 11, 15);
-    width:500px;
-    height: 50px;
+    width:100%;
+    height: 60px;
     border-radius: 10px;
-    box-shadow: 0 0 8px 2px rgb(124, 14, 255);
-    background: linear-gradient(to right, rgb(65, 10, 249), rgb(131, 2, 209));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    outline: 3.5px solid rgba(114, 151, 224, 0.912);
+    box-shadow: 0 0 8px 8px rgba(114, 151, 224, 0.39), 0 0 8px 8px rgba(110, 78, 175, 0.314);
+}
+.submit-btn{
+    position:absolute;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: rgb(123, 16, 255);
+    border: none;
+    color:rgb(222, 195, 253);
+    right:10px;
+    top:6px;
+    font-weight: 600;
+}
+.fill-in{
+    width:500px;
+    position: relative;
+    
+}
+/* Bottom */
+.bot-1{
+    color:rgb(209, 214, 225);
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    margin-top:35px;
+    margin-bottom: 25px;
+}
+.bot-1 > li{
+    margin:9px;
+    font-size:13px;
+}
+.t-logo{
+    height:15px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding:0;
+}
+/* End */
+.end-logo{
+    border-radius: 5px;
+    margin-top:10px;
+    width:150px;
+    height:25px;
 }
