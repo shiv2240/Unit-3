@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* font-family: "Inter", sans-serif; */
-/* .nav-items > li{
 
-} */
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +40,7 @@ a {
   padding: 0 15px;
 }
 
-.apply-btn {
+.app-btn {
   color: white;
   background-color: #ed0331;
   font-weight: 500;
@@ -70,9 +67,8 @@ a {
   margin: 0 20px;
 }
 
-/* .btns {
-} */
-.btns button:first-child {
+/* button */
+.but button:first-child {
   background-color: #e3ffff;
   font-weight: 600;
   padding: 14px 16px;
@@ -83,7 +79,7 @@ a {
   border-radius: 7px;
   font-size: 14px;
 }
-.btns button:last-child {
+.but button:last-child {
   padding: 14px 22px;
   cursor: pointer;
   border: 2px solid #ed0331;
@@ -93,40 +89,40 @@ a {
   font-weight: 600;
   font-size: 14px;
 }
-.hero {
+.middle {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 4%;
   height: 500px;
 }
-.hero-text {
+.text-area {
   max-width: 600px;
 }
-.hero-head {
+.mid-text1 {
   color: #6d70cb;
   font-size: 48px;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
 }
-.hero-desc {
+.mid-text2 {
   font-size: 25px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   margin-bottom: 15px;
 }
-.hero-text button {
+.text-area button {
   font-weight: 600;
 }
-.hero-video > iframe {
+.mid-vid > iframe {
   border-radius: 15px;
 }
-.hero-video {
+.mid-vid {
   display: flex;
   align-items: center;
 }
 
-.achievement {
+.achi {
   background-color: #346fe3;
   width: 100%;
   height: 140px;
@@ -136,7 +132,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-.achievement > div {
+.achi > div {
   font-size: 37px;
   font-weight: 700;
 }
