@@ -8,26 +8,6 @@
     font-family: 'Switzer', sans-serif;
     color:white;
   }
-  
-  a {
-    color: inherit;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fedfe5;
-    height: 70px;
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 16px;
-  }
-  
-  .header button {
-    margin-left: 20px;
-  }
-  
   .navbar {
     display: flex;
     height: 70px;
@@ -56,6 +36,7 @@
   
   .logo {
     width: 150px;
+    margin-left:25px;
   }
   .new{
     background-color:#ffe59c;
@@ -86,4 +67,5 @@
     background-color: #0165ff;
     border: transparent;
     font-weight: 400;
+    margin-right:25px;
   }
