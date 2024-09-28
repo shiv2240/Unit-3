@@ -1,0 +1,42 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .box1 {
+    background-color: rgba(53, 220, 164, 0.492)
+  }
+  .box2 {
+    background-color: brown;
+  }
+  .box3 {
+    background-color: blueviolet;
+  }
+  .box4 {
+    background-color:  bisque;
+  }
+  .box5 {
+    background-color: rgb(255, 4, 184);
+  }
+  .box6 {
+    background-color: darkmagenta;
+  }
+  .box7 {
+    background-color: rgb(255, 251, 0);
+  }
+  .box8 {
+    background-color: rgba(58, 226, 43, 0.444);
+  }
